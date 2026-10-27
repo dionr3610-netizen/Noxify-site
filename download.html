@@ -3,26 +3,103 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Download NOXIFY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOXIFY | Download</title>
 <style>
-body{margin:0;min-height:100vh;display:grid;place-items:center;background:#08060c;color:#f5f3ff;font-family:Arial,sans-serif;padding:20px}
-.card{width:100%;max-width:500px;background:#130e1b;border:1px solid #49315e;border-radius:16px;padding:30px;text-align:center}
-.logo{font-size:30px;font-weight:900;letter-spacing:3px;color:#c084fc}
-p{color:#aaa1b8;line-height:1.7}
-.status{margin:24px 0;padding:16px;background:#26132f;border-radius:8px;color:#d8b4fe;font-weight:bold}
-a{display:inline-block;background:#9333ea;color:white;padding:13px 18px;border-radius:8px;text-decoration:none;font-weight:bold}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top, #29103f, #08060d 65%);
+  color: #f5edff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 22px 7%;
+  border-bottom: 1px solid #38204f;
+  background: #090610dd;
+}
+.logo { font-size: 25px; font-weight: 900; letter-spacing: 3px; }
+.logo span { color: #a855f7; }
+main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 40px 20px;
+}
+.panel {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 42px 25px;
+  border: 1px solid #65358a;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #1b1028, #0d0913);
+  box-shadow: 0 0 45px #9333ea25;
+}
+.tag {
+  display: inline-block;
+  color: #d8b4fe;
+  border: 1px solid #65358a;
+  background: #241333;
+  border-radius: 30px;
+  padding: 9px 14px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+h1 { font-size: clamp(35px, 8vw, 55px); margin: 25px 0 12px; }
+h1 span { color: #c084fc; }
+p { color: #b9a9c8; line-height: 1.7; }
+.info {
+  margin: 28px 0;
+  padding: 20px;
+  border: 1px solid #38204f;
+  border-radius: 12px;
+  background: #100b18;
+  text-align: left;
+}
+.info p { margin: 10px 0; }
+.button {
+  display: inline-block;
+  padding: 14px 22px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #9333ea, #6b21a8);
+  border: 1px solid #c084fc;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 22px #9333ea33;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #a99bb8;
+  border-top: 1px solid #38204f;
+  font-size: 13px;
+}
 </style>
 </head>
 <body>
-<div class="card">
-  <div class="logo">NOXIFY</div>
-  <h1>Download</h1>
-  <p>NOXIFY Regular · BONELAB Quest</p>
-  <p>Planned version: v1.0.0</p>
-  <div class="status">NOT RELEASED YET</div>
-  <p>A download will be posted here when a release is ready.</p>
-  <a href="index.html">BACK TO HOME</a>
-</div>
+<header>
+  <div class="logo">NOX<span>IFY</span></div>
+</header>
+<main>
+  <div class="panel">
+    <div class="tag">OFFICIAL DOWNLOAD PAGE</div>
+    <h1>NOXIFY <span>DOWNLOAD</span></h1>
+    <p>The next level of customization is in development.</p>
+    <div class="info">
+      <p>💜 <strong>Status:</strong> Not released yet</p>
+      <p>📦 <strong>Version:</strong> Planned v1.0.0</p>
+      <p>🎮 <strong>Platform:</strong> BONELAB Quest — planned</p>
+      <p>🛠️ <strong>Development:</strong> In progress</p>
+    </div>
+    <p>There is no download file available yet. This page will be updated when a real release is ready.</p>
+    <a class="button" href="index.html">← BACK TO HOME</a>
+  </div>
+</main>
+<footer>NOXIFY · MAKE YOUR WORLD YOURS</footer>
 </body>
 </html>
