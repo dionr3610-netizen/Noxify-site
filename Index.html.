@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOXIFY</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#08060c;color:#f5f3ff;font-family:Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 7%;border-bottom:1px solid #30213e}
+.logo{font-size:27px;font-weight:900;color:#c084fc;letter-spacing:3px}
+nav a{color:#e9d5ff;text-decoration:none;margin-left:15px}
+.hero{text-align:center;padding:90px 20px;background:radial-gradient(ellipse at top,#29113d,#08060c 70%)}
+h1{font-size:clamp(36px,8vw,64px)}
+h2{color:#d8b4fe}
+p{color:#aaa1b8;line-height:1.7}
+.wrap{max-width:1000px;margin:auto;padding:35px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
+.card{background:#130e1b;border:1px solid #352343;border-radius:12px;padding:20px}
+.btn{display:inline-block;background:#9333ea;color:white;padding:13px 18px;border-radius:8px;text-decoration:none;font-weight:bold}
+.sound-list{display:flex;flex-wrap:wrap;gap:10px}
+.sound{background:#1b1225;color:#e9d5ff;border:1px solid #49315e;padding:11px;border-radius:8px}
+footer{text-align:center;padding:25px;border-top:1px solid #30213e;color:#81758d}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">NOXIFY</div>
+  <nav><a href="#features">Features</a> <a href="#soundboard">Sounds</a> <a href="download.html">Download</a></nav>
+</header>
+<section class="hero">
+  <p>YOUR WORLD. YOUR RULES.</p>
+  <h1>MAKE YOUR WORLD YOURS.</h1>
+  <p>Explore the NOXIFY concept for BONELAB Quest.</p>
+  <a class="btn" href="#features">EXPLORE NOXIFY</a>
+</section>
+<section class="wrap" id="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card"><h3>Custom Menu</h3><p>A personalized menu concept.</p></div>
+    <div class="card"><h3>Movement Options</h3><p>Movement customization ideas.</p></div>
+    <div class="card"><h3>Item Spawner</h3><p>A planned item-spawning feature.</p></div>
+    <div class="card"><h3>Customization</h3><p>Make it your own.</p></div>
+    <div class="card"><h3>Player Settings</h3><p>Personal settings.</p></div>
+    <div class="card"><h3>Soundboard</h3><p>Sound effect ideas.</p></div>
+  </div>
+</section>
+<section class="wrap" id="soundboard">
+  <h2>Soundboard</h2>
+  <p>These buttons are placeholders; they do not play sounds yet.</p>
+  <div class="sound-list">
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Vine Boom</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Bruh</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Air Horn</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Windows Error</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">To Be Continued</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Cartoon Boing</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Fart</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Record Scratch</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Crowd Laugh</button>
+    <button class="sound" onclick="alert('Soundboard coming soon!')">Custom Sound</button>
+  </div>
+</section>
+<section class="wrap">
+  <div class="card">
+    <h2>NOXIFY Regular</h2>
+    <p>BONELAB Quest · Planned version v1.0.0</p>
+    <p><strong>NOT RELEASED YET</strong></p>
+    <a class="btn" href="download.html">DOWNLOAD STATUS</a>
+  </div>
+</section>
+<footer>NOXIFY · Make Your World Yours.</footer>
+</body>
+</html>
